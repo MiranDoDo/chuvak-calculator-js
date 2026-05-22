@@ -22,7 +22,7 @@ function result() {
 
     nums = document.getElementById("input").innerText
 
-    answer = eval(nums).toFixed(5)
+    answer = eval(nums)
 
     if(answer == Infinity){
         document.getElementById("input").textContent = "На 0 делить нельзя!"
